@@ -1,13 +1,7 @@
 /* ------------------------------------------------------- */
 /* ------- Custom Pulsating Save and Next Buttons -------- */
 /* ------------------------------------------------------- */
-// Tested with portal v10.1.1.2016 
-// Tested with IE11, Chrome 86, Firefox 82 & Edge (MS flickering bug present)
-// Contributors: Martin Blomgren, Ben Gillion
-// Description: Pulsates the save (and next if using ARO) buttons in the taskbar drawer
-// v0.3 Added pulsating next button and logic to stop pulsating if either button is disabled when using the Advanced Request Offering feature of the Cireson portal
-// v0.2 IE and FF needs @ in keyframe string to be escaped
-// v0.1 Initial release
+
 var observer = new MutationObserver(function (mutations) {
 	var targetElement1 = $('#drawer-taskbar .btn .fa.fa-check').parent();
 	var targetElement2 = $('#drawer-taskbar .btn .fa-arrow-right').parent();
