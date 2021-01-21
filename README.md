@@ -7,6 +7,8 @@ If you do not already have a Script Loader function in your custom.js, you can c
 
 Call the script in your custom.js by using `loadScript("/CustomSpace/AROButtons/custom_PulseSaveNextBtn.js",["/RequestOffering/"]);`
 
+More information on how to use the Script Loader can be found [here](https://cireson.com/blog/how-to-organize-your-customspace-with-a-script-loader/).
+
 ## More information
 The code has been tested with the v10.1.1.2016 version of the Cireson portal and with IE11, Chrome 87 and Edge.
 
