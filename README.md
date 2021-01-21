@@ -1,7 +1,8 @@
 # Cireson portal ARO Pulsing Buttons script
 JavaScript to pulsate the Save / Next navigation buttons of the Cireson Service Manager (SCSM) portal.
 
-To use, copy the file to the CustomSpace folder of your Cireson portal server(s).
+To use, Create a new folder under the CustomSpace directory (e.g. AROButtons) of your Cireson portal server(s) and copy the custom_PulseSaveNextBtn.js file in to the new folder.
+If you do not already have a Scrip tLoader function in your custom.js,  
 
 The code has been tested with the v10.1.1.2016 version of the Cireson portal and with IE11, Chrome 87 and Edge.
 
