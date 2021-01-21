@@ -7,6 +7,7 @@ If you do not already have a Scrip tLoader function in your custom.js, you can c
 
 Call the script in your custom.js by using `loadScript("/CustomSpace/AROButtoms/custom_PulseSaveNextBtn.js",["/RequestOffering/"]);`
 
+## More information
 The code has been tested with the v10.1.1.2016 version of the Cireson portal and with IE11, Chrome 87 and Edge.
 
 The original discussion about this code can be found here: https://community.cireson.com/discussion/1851/pulsating-save-button-in-drawer-taskbar?
